@@ -24,8 +24,7 @@ No vídeo abaixo é possível verificar todas as funcionalidades do aplicativo. 
 https://user-images.githubusercontent.com/90416283/209384714-a10ce7f1-3ddb-4818-978d-6fd7a15312ed.mp4
 
 
-
-<h3>Imagens</h3>
+<h2>Imagens</h2>
 
 ![imagem da tela de login](https://user-images.githubusercontent.com/90416283/209377715-0d9f81dd-8411-4dec-a5bc-f8744a3fa0d7.PNG) ![imagem da tela inicial](https://user-images.githubusercontent.com/90416283/209378158-ac359da6-7554-410d-ae6a-e63ad515d2c0.PNG)
 ![imagem da tela de cadastro](https://user-images.githubusercontent.com/90416283/209378338-eecfeafa-7a0d-43b2-9638-091da3b43b2b.PNG)![imagem da tela de atualizacao](https://user-images.githubusercontent.com/90416283/209378859-a0659a21-c330-4402-9e05-c5c15d858968.PNG)
