@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="br.edu.infnet.livrosbacklog.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_livrosFragment"
+            app:destination="@id/livrosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/livrosFragment"
+        android:name="br.edu.infnet.livrosbacklog.fragments.LivrosFragment"
+        android:label="fragment_livros"
+        tools:layout="@layout/fragment_livros" >
+        <action
+            android:id="@+id/action_livrosFragment_to_cadastrarLivrosFragment"
+            app:destination="@id/cadastrarLivrosFragment" />
+        <action
+            android:id="@+id/action_livrosFragment_to_editarLivrosFragment"
+            app:destination="@id/editarLivrosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cadastrarLivrosFragment"
+        android:name="br.edu.infnet.livrosbacklog.fragments.CadastrarLivrosFragment"
+        android:label="fragment_cadastrar_livros"
+        tools:layout="@layout/fragment_cadastrar_livros" >
+        <action
+            android:id="@+id/action_cadastrarLivrosFragment_to_livrosFragment"
+            app:destination="@id/livrosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarLivrosFragment"
+        android:name="br.edu.infnet.livrosbacklog.fragments.EditarLivrosFragment"
+        android:label="fragment_editar_livros"
+        tools:layout="@layout/fragment_editar_livros" >
+        <action
+            android:id="@+id/action_editarLivrosFragment_to_livrosFragment"
+            app:destination="@id/livrosFragment" />
+    </fragment>
+</navigation>
