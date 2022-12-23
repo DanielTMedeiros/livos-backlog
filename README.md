@@ -1,7 +1,7 @@
 # Projeto Backlog de Livros
 ![Badge Concluido](https://img.shields.io/badge/STATUS-CONCLUIDO-green)
 
-O projeto teve o objetivo de cumprir os requisitos solicitados no trabalho de conclusao do bloco de Desenvolvimento Android, do curso de graduação em Análise e Desenvolvimento de Sistemas, do Instituto INFNET. O trabalho foi feito em linguagem Kotlin, utilizando o Android Studio.
+O projeto teve o objetivo de cumprir os requisitos exigidos no trabalho de conclusao do bloco de Desenvolvimento Android, do curso de graduação em Análise e Desenvolvimento de Sistemas, do Instituto INFNET. O trabalho foi feito em linguagem Kotlin, utilizando o Android Studio.
 
 O projeto funciona como uma lista de livros em que o usurário ira criar um item, informando autor, título, categoria, status de leitura, podendo ainda avaliar o livro em um score de uma a cinco estrelas.
 
